@@ -7,6 +7,16 @@ class Switch:
 
 
 
+    def run_simulation(self, num_time_slots, load):
+        total_throughput = 0
+        print("Time Slot | Current Match | Throughput")
+        for t in range(num_time_slots):
+            throughput = self.run_time_slot(t, load)
+            total_throughput += throughput
+            print(f"{t+1:9} | {str(self.current_match):14} | {throughput}")
+            
+        average_throughput = total_throughput / num_time_slots
+        print(f"\nAverage Throughput over {num_time_slots} time slots: {average_throughput}")
 
 
 # Get input from the user
