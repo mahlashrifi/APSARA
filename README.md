@@ -9,7 +9,7 @@ You can find implementation details [here](https://github.com/mahlashrifi/APSARA
 Network switches play a vital role in managing data traffic within various types of networks. At the core of a network switch's function is the "matching" process. This process is akin to a telephone operator connecting calls; it involves pairing incoming data packets (inputs) with the correct exit paths (outputs). This pairing must happen swiftly and efficiently to ensure data is routed correctly through the network with minimal waiting time. The matching algorithm is pivotal because it determines the switch's overall efficiency, impacting the rate at which data packets are transferred (throughput) and how long they are held before being forwarded (delay).
 
 ### The ASPARA Approach
-The ASPARA (Adaptive Switching Pattern Algorithm) innovates in the domain of input-buffered switches by integrating two strategic approaches:
+The ASPARA  innovates in the domain of input-buffered switches by integrating two strategic approaches:
 1. **Memory Utilization**:
    It proactively stores possible switch configurations for efficient traffic handling.
 
